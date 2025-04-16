@@ -1,0 +1,20 @@
+{
+  "name": "dnd-parallax-3d",
+  "version": "1.0.0",
+  "description": "Interactive web project with a 3D parallax effect that responds to mouse cursor movement. The effect creates an illusion of depth using multi-layered images and CSS 3D transformations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjakaev/dnd-parallax-3d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjakaev/dnd-parallax-3d/issues"
+  },
+  "homepage": "https://github.com/sjakaev/dnd-parallax-3d#readme"
+}
