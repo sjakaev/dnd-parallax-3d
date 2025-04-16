@@ -20,7 +20,7 @@
 Просто откройте файл `index.html` в вашем браузере для просмотра проекта.
 
 ```
-git clone https://github.com/roman-sjakaev/dnd-parallax-3d.git
+git clone https://github.com/sjakaev/dnd-parallax-3d.git
 cd dnd-parallax-3d
 ```
 
