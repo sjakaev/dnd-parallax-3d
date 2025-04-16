@@ -19,3 +19,9 @@ yarn-error.log
 # Build
 dist/
 build/
+
+# Системные файлы
+Thumbs.db
+
+# Local Netlify folder
+.netlify
