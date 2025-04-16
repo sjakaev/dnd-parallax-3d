@@ -17,19 +17,9 @@
 	src: url(../fonts/merriweather-regular-italic.woff2);
 }
 body {
-	background-color: #000;
+	background-color: #0f1329;
 	color: #fff;
 	font-family: kamerik-3d;
-}
-.logo {
-	--logo-size: calc(var(--index) * 7.8);
-	width: var(--logo-size);
-	height: var(--logo-size);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: calc(51% - calc(var(--logo-size) / 2));
-	top: calc(var(--index) * 2.8);
-	z-index: 1;
 }
 .layers {
 	perspective: 1000px;
@@ -52,25 +42,25 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-.layer-1 {
-	transform: translateZ(-55px) scale(1.06);
+.layers__item--1 {
+	transform: translateZ(-20px) scale(1.06);
 }
-.layer-2 {
+.layers__item--2 {
 	transform: translateZ(80px) scale(.98);
 }
-.layer-3 {
+.layers__item--3 {
 	transform: translateZ(180px) scale(.8);
 }
-.layer-4 {
+.layers__item--4 {
 	transform: translateZ(190px) scale(.9);
 }
-.layer-5 {
+.layers__item--5 {
 	transform: translateZ(300px) scale(.9);
 }
-.layer-6 {
+.layers__item--6 {
 	transform: translateZ(380px);
 }
-.hero-content {
+.hero {
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
@@ -78,10 +68,10 @@ body {
 	line-height: 1.35em;
 	margin-top: calc(var(--index) * 5.5);
 }
-.hero-content span {
+.hero span {
 	display: block;
 }
-.magic-title {
+.hero__title {
     font-family: kamerik-3d;
     font-size: calc(var(--index) * 4.5);
     color: #b8c0ff;
@@ -96,14 +86,15 @@ body {
     letter-spacing: calc(var(--index) * -0.05);
 }
 
-.hero-content__p {
+.hero__description {
 	text-transform: none;
 	font-family: merriweather-italic-3d;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
+    color: #c6caf6;
 }
-.button-start {
+.hero__button {
 	font-family: Arial;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -111,13 +102,15 @@ body {
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: transparent;
-	color: #fff;
+	color: #c6caf6;
 	border-radius: 10em;
 	border: rgb(255 255 255 / .4) 3px solid;
+    border-color: #c6caf6;
 	outline: none;
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
+	text-decoration: none;
 }
-.layer-4, .layer-5, .layer-6 {
+.layers__item--4, .layers__item--5, .layers__item--6 {
 	pointer-events: none;
 }
