@@ -1,27 +1,27 @@
 # 3D Parallax Effect
 
-Интерактивный веб-проект с эффектом 3D параллакса, который реагирует на движение курсора мыши. Эффект создает иллюзию глубины с помощью многослойных изображений и CSS 3D-трансформаций.
+Interactive web project with a 3D parallax effect that responds to mouse cursor movement. The effect creates an illusion of depth using multi-layered images and CSS 3D transformations.
 
-## Особенности
+## Features
 
-- Многослойный 3D параллакс эффект
-- Плавные анимации с кубическими кривыми Безье
-- Адаптивный дизайн с использованием относительных единиц измерения
-- Стилизованная типографика с кастомными шрифтами
+- Multi-layered 3D parallax effect
+- Smooth animations with cubic Bezier curves
+- Responsive design using relative measurement units
+- Stylized typography with custom fonts
 
-## Технологии
+## Technologies
 
 - HTML5
-- CSS3 (3D-трансформации, переменные CSS, кастомные шрифты)
-- JavaScript (обработка событий движения мыши)
+- CSS3 (3D transformations, CSS variables, custom fonts)
+- JavaScript (mouse movement event handling)
 
-## Запуск проекта
+## Getting Started
 
-Просто откройте файл `index.html` в вашем браузере для просмотра проекта.
+Simply open the `index.html` file in your browser to view the project.
 
 ```
 git clone https://github.com/sjakaev/dnd-parallax-3d.git
 cd dnd-parallax-3d
 ```
 
-Затем откройте `index.html` в вашем браузере.
+Then open `index.html` in your browser.
