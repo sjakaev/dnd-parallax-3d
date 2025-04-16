@@ -2,6 +2,10 @@
 
 Interactive web project with a 3D parallax effect that responds to mouse cursor movement. The effect creates an illusion of depth using multi-layered images and CSS 3D transformations.
 
+## Demo
+
+Check out the live demo: [3D Parallax Effect](https://dnd-parallax-3d.netlify.app)
+
 ## Features
 
 - Multi-layered 3D parallax effect
