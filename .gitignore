@@ -20,11 +20,6 @@ yarn-error.log
 dist/
 build/
 
-# Игнорируем большие изображения
-*.png
-*.jpg
-*.gif
-
 # Системные файлы
 Thumbs.db
 
