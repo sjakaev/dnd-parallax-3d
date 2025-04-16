@@ -2,19 +2,31 @@
   "name": "dnd-parallax-3d",
   "version": "1.0.0",
   "description": "Interactive web project with a 3D parallax effect that responds to mouse cursor movement. The effect creates an illusion of depth using multi-layered images and CSS 3D transformations.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js",
+    "lint:fix": "eslint src --ext .js --fix",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:css:fix": "stylelint 'src/**/*.css' --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sjakaev/dnd-parallax-3d.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["parallax", "3d", "css", "animation"],
+  "author": "Roman Sjakaev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sjakaev/dnd-parallax-3d/issues"
   },
-  "homepage": "https://github.com/sjakaev/dnd-parallax-3d#readme"
+  "homepage": "https://github.com/sjakaev/dnd-parallax-3d#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "vite": "^5.1.1"
+  }
 }

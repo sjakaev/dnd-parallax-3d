@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": "tab",
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
+    "selector-not-notation": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "property-no-vendor-prefix": null
+  }
+}
